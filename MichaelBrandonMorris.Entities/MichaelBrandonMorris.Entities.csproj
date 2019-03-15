@@ -6,9 +6,11 @@
     <Authors>Michael Brandon Morris</Authors>
     <Description>Base classes for database entities.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<Version>1.0.2</Version>
+	<Version>1.0.4</Version>
 	<AssemblyName>MichaelBrandonMorris.Entites</AssemblyName>
 	<RootNamespace>MichaelBrandonMorris.Entities</RootNamespace>
+	<PackageId>MichaelBrandonMorris.Entities</PackageId>
+	<Product>MichaelBrandonMorris.Entities</Product>
   </PropertyGroup>
 
   <ItemGroup>
