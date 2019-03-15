@@ -5,17 +5,6 @@ namespace MichaelBrandonMorris.Entities
 {
     public abstract class Entity<TId> : IEquatable<Entity<TId>>
     {
-        protected Entity()
-        {
-            if (typeof(TId) != typeof(int) && 
-                typeof(TId) != typeof(long) && 
-                typeof(TId) != typeof(Guid) &&
-                typeof(TId) != typeof(string))
-            {
-                throw new NotSupportedException($"Type {typeof(TId)} is not a supported type for the Id property.");
-            }
-        }
-
         public TId Id { get; set; }
 
         /// <inheritdoc />
