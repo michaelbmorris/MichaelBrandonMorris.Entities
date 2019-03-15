@@ -6,7 +6,9 @@
     <Authors>Michael Brandon Morris</Authors>
     <Description>A simple base class for database entities.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<Version>1.0.1</Version>
+	<Version>1.0.2</Version>
+	<AssemblyName>MichaelBrandonMorris.Entites</AssemblyName>
+	<RootNamespace>MichaelBrandonMorris.Entities</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

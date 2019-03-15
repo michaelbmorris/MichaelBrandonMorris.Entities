@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MichaelBrandonMorris.Entity.Base
+namespace MichaelBrandonMorris.Entities
 {
     public abstract class Entity<TId> : IEquatable<Entity<TId>>
     {
